@@ -331,7 +331,7 @@
         "text_YkiTRU": {
           "type": "text",
           "settings": {
-            "text": "<p><strong>We are pleased to announce Bob Breslauer has joined the Model Motorcars team!</strong></p><p> </p><p><strong>Bob is mechanical engineer, jazz drummer and professional model builder...</strong></p>",
+            "text": "<p><strong>We are pleased to announce Bob Breslauer has joined the Model Motorcars team!</strong> </p><p><strong>Bob is mechanical engineer, jazz drummer and professional model builder...</strong></p>",
             "text_style": "body"
           }
         },
