@@ -339,7 +339,7 @@
           "type": "button",
           "settings": {
             "button_label": "Read More",
-            "button_link": "shopify://blogs/monthly-bulletins/april-bulletin-25",
+            "button_link": "shopify://blogs/monthly-bulletins/april-25-bulletin",
             "button_style_secondary": false
           }
         }
