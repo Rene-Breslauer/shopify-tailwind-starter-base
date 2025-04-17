@@ -324,7 +324,7 @@
         "heading_pGyxwH": {
           "type": "heading",
           "settings": {
-            "heading": "Monthly Bulletin",
+            "heading": "Monthly Bulletins",
             "heading_size": "h1"
           }
         },
@@ -349,7 +349,6 @@
         "text_YkiTRU",
         "button_BXAq6H"
       ],
-      "name": "t:sections.image-with-text.presets.name",
       "settings": {
         "image": "shopify://shop_images/IMG_0343_64f40784-670e-46bb-93e8-1ec993d3bc02.jpg",
         "height": "adapt",
