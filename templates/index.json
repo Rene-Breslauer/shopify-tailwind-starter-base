@@ -15,9 +15,11 @@
         "hero_link": "",
         "hero_image": "shopify://shop_images/DSC01575.png",
         "background_color": "linear-gradient(0deg, rgba(82, 3, 3, 1) 100%, rgba(215, 204, 250, 1) 100%, rgba(82, 3, 3, 1) 100%)",
-        "hero_title": "JUNE SPECIAL!<br>FREE SHIPPING",
+        "hero_title": "FREE SHIPPING",
+        "hero_subheading": "JUNE SPECIAL",
         "hero_span": "",
-        "hero_subtitle": "Free worldwide shipping on all orders over $50!<br>Sunday, June 1st - Saturday, June 7th",
+        "hero_subtitle": "Free worldwide shipping on all orders over $50!",
+        "hero_text": "Sunday, June 1st - Saturday, June 7th",
         "hero_button_text": ""
       }
     },
