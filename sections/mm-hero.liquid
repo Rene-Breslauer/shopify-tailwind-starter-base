@@ -13,9 +13,12 @@
     </div>
   </div>
   <div
-    class='p-10 text-white flex flex-col justify-center items-start w-fit mx-auto'
+    class='py-10 px-7 text-white flex flex-col justify-center items-start w-fit mx-auto'
   >
-    <h1 class='text-white font-semibold uppercase text-[8vw] lg:text-[5vw] whitespace-nowrap mb-4'>
+    {% if section.settings.hero_subheading %}
+      <h2 class='text-[#FBEB34] font-script '>{{ section.settings.hero_subheading }}</h2>
+    {% endif %}
+    <h1 class='text-white font-semibold uppercase text-[8vw] lg:text-[5.1vw] whitespace-nowrap'>
       {{ section.settings.hero_title }}
       {% if section.settings.hero_span %}
         <span class='text-[#FBEB34] whitespace-nowrap font-script text-[5vw] lg:text-[2.5vw] inline-flex -mt-1 -rotate-[8deg]'>
@@ -23,7 +26,12 @@
         </span>
       {% endif %}
     </h1>
-    <span class='max-w-[80vw] lg:max-w-[40vw]'>{{ section.settings.hero_subtitle }}</span>
+    {% if section.settings.hero_subtitle %}
+      <span class='max-w-[80vw] lg:max-w-[40vw] mb-1 flex'>{{ section.settings.hero_subtitle }}</span>
+    {% endif %}
+    {% if section.settings.hero_text %}
+      <span class='max-w-[80vw] lg:max-w-[40vw] text-base lg:text-lg flex'>{{ section.settings.hero_text }}</span>
+    {% endif %}
   </div>
 </section>
 
@@ -58,6 +66,12 @@
     },
     {
       "type": "text",
+      "id": "hero_subheading",
+      "label": "Hero Subheading",
+      "default": "JUNE SPECIAL"
+    },
+    {
+      "type": "text",
       "id": "hero_span",
       "label": "Hero Span"
     },
@@ -65,6 +79,12 @@
       "type": "text",
       "id": "hero_subtitle",
       "label": "Hero Subtitle"
+    },
+    {
+      "type": "text",
+      "id": "hero_text",
+      "label": "Hero Text",
+      "default": "Sunday, June 1st - Saturday, June 7th"
     },
     {
       "type": "text",
