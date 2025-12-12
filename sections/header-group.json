@@ -38,12 +38,12 @@
     "mm_announcement_bar_Td3Fq9": {
       "type": "mm-announcement-bar",
       "blocks": {
-        "announcement_kamLkX": {
+        "announcement_c9QBHY": {
           "type": "announcement",
           "settings": {
-            "text": "Marvin Meit",
+            "text": "Bob Breslauer",
             "text_email": "bbreslauer@modelmotorcars.com",
-            "text_phone": "(954) 258-3986"
+            "text_phone": "(954) 609-4108"
           }
         },
         "announcement_zECpNf": {
@@ -53,20 +53,11 @@
             "text_email": "frankg@modelmotorcars.com",
             "text_phone": "(910) 381-2625"
           }
-        },
-        "announcement_c9QBHY": {
-          "type": "announcement",
-          "settings": {
-            "text": "Bob Breslauer",
-            "text_email": "bbreslauer@modelmotorcars.com",
-            "text_phone": "(954) 609-4108"
-          }
         }
       },
       "block_order": [
-        "announcement_kamLkX",
-        "announcement_zECpNf",
-        "announcement_c9QBHY"
+        "announcement_c9QBHY",
+        "announcement_zECpNf"
       ],
       "settings": {
         "color_scheme": "scheme-4"
