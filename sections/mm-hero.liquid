@@ -1,3 +1,9 @@
+{% style %}
+.hero-text a {
+  text-decoration: underline;
+}
+{%  endstyle %}
+
 <section
   class='w-full mm-grid grid-cols-1 lg:grid-cols-2'
   style='background-image:{{ section.settings.background_color }};'
@@ -30,7 +36,7 @@
       <span class='max-w-[80vw] lg:max-w-[40vw] block'>{{ section.settings.hero_subtitle }}</span>
     {% endif %}
     {% if section.settings.hero_text %}
-      <p class='max-w-[80vw] lg:max-w-[40vw] mt-3 text-base lg:text-lg block'>{{ section.settings.hero_text }}</p>
+      <p class='max-w-[80vw] hero-text lg:max-w-[40vw] mt-3 text-base lg:text-lg block'>{{ section.settings.hero_text }}</p>
     {% endif %}
     {%  if section.settings.hero_button_text %}
       <a class="underline" href="{{ section.settings.hero_link }}">{{ section.settings.hero_button_text }}</a>
